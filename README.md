@@ -10,15 +10,17 @@ OOP Principles
 
 Classes and instances:
 
-Classes and instances are two different things but are confused to be the same from time to time. A class is seen as a blueprint for your instances. What this means is that every instance you make is going to have the same attributes/properties as the other instances with the same classname. In my code this is represented in many diffrent ways. Instead of writing code seprately for every single class you can use a separate class to give every single instance of this class the same properties, with you having to write the code of these 3 properties only once.
+Classes en instances zijn twee verschillende dingen maar worden vaak met elkaar verward. Een class wordt gezien als de blauwdruk voor je instances. In me code laat ik dit zien op veel verschillende manieren. In plaats van code apart te schrijven voor elke class kan je een aparte class gebruiken om elke instance van deze class dezelfde properties te geven, zonder dat jij de verschillende properties meerdere keren moet opschrijven. 
 
 Encapsulation:
 
-Encapsulation is the principle where you portion off your properties with private, public or protected. All of my properties are portioned off in one of these three ways.
+Encapsulation houdt in dat je je properties labelt met private public of protected. Al mijn properties hebben dit. 
+
 
 Composition:
 
-Composition is the principle where a property has other properties. In my game this is shown in multiple ways. My start has a game, my game has a ball, paddle, bricks, life and game over and my game over has a start. Also life has a game over aswell.
+Composition is het principe waar een property meerdere properties heeft. In mijn game wordt dit gedaan maar wel simpel. Mijn game heeft een snake bijvoorbeeld. 
+
 
 Inheritance:
 Inheritance is just what the name implies a class inherits properties form a general class and can use its properties while they are private for others. The only reason why the gameOver class is not a child of Figure is because they have a special condition that the figure can't produce.
