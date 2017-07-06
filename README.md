@@ -23,4 +23,6 @@ Composition is het principe waar een property meerdere properties heeft. In mijn
 
 
 Inheritance:
-Inheritance is just what the name implies a class inherits properties form a general class and can use its properties while they are private for others. The only reason why the gameOver class is not a child of Figure is because they have a special condition that the figure can't produce.
+
+Inheritance spreekt al voor zich. Het is het overerven van properties van een algemene class en kan deze properties vervolgens gebruiken terwijl ze private zijn for anderen. 
+
